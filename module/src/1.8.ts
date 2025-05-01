@@ -19,5 +19,5 @@
 
   //array destructuring
   const friends = ["ash", "pro", "rock", "zidan"];
-  const [, , bestFriend, ...friend] = friends;
+  const [, , bestFriend, ...rest] = friends;
 }
