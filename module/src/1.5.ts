@@ -1,7 +1,7 @@
 //Reference Type --. object
 
 const user: {
-  company: "programming Hero"; //type ===> literal Type
+  readonly company: string; //type ===> literal Type
   firstName: string;
   middleName?: string; //optional Type
   lastName: string;
@@ -12,5 +12,3 @@ const user: {
   lastName: "Islam",
   isMArid: true,
 };
-
-user.company;
